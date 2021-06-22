@@ -302,7 +302,7 @@ f().then((message) => {
 
     /* 15 .프로미스 객체 여러개를 생성하여,
         배열로 만들어 인자를 넣고 Promise.race를 실행하면
-        배열의 모든 프로미스 객체들 중 가장 먼저 fulfiled 된 걸로 then의 함수가 실행된다.
+        배열의 모든 프로미스 "객체들 중 가장 먼저 fulfiled 된 걸로" then의 함수가 실행된다.
         then의 함수의 인자로 가장 먼저 fulfilled 된 프로미스 객체의 resolve 인자값을 돌려준다.
         
         Promise.race([프로미스 객체들]);

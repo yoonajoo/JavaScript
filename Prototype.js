@@ -12,7 +12,7 @@ People.prototype.doctor = function(){
 function Korean(region){
     this.region = region;
     this.where = function(){
-        console.log('where', this.region);
+        console.log('where', this.region); 
     };
 
 }

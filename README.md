@@ -1,2 +1,0 @@
-# JavaScript
-JavaScript_Study
